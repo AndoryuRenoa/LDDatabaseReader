@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.mochijump.repository.BarcodeRepository;
-import com.mochijump.repository.ItemRepository;
 import com.mochijump.repository.VendorRepository;
 import com.mochijump.reveng.PoVend;
 import com.mochijump.types.BarcodeResponse;
@@ -28,7 +27,8 @@ public class MainController {
 	@Autowired
 	private VendorRepository vendorRepo;
 	
-	List <PoVend> vendorList;
+	private List <PoVend> vendorList;
+	
 	
 	@RequestMapping ("/vendors")
 	@ResponseBody
