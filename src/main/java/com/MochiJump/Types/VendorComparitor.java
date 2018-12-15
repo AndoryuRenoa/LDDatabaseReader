@@ -1,8 +1,8 @@
-package com.MochiJump.Types;
+package com.mochijump.types;
 
 import java.util.Comparator;
 
-import com.MochiJump.RevEng.PoVend;
+import com.mochijump.reveng.PoVend;
 
 public class VendorComparitor	implements Comparator {
 

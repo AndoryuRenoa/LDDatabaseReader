@@ -1,7 +1,7 @@
-package com.MochiJump.Repository;
+package com.mochijump.repository;
 import org.springframework.data.repository.CrudRepository;
 
-import com.MochiJump.RevEng.ImBarcod;
+import com.mochijump.reveng.ImBarcod;
 
 //import com.MochiJump.RevEng.*;
 

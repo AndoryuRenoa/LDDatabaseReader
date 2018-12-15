@@ -1,4 +1,4 @@
-package com.MochiJump.Types;
+package com.mochijump.types;
 
 public class VendorResponse {
 	

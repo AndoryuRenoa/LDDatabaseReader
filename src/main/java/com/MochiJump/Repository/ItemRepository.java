@@ -1,8 +1,8 @@
-package com.MochiJump.Repository;
+package com.mochijump.repository;
 import org.springframework.data.repository.CrudRepository;
 
-import com.MochiJump.RevEng.ImItem;
-import com.MochiJump.RevEng.ImPrc;
+import com.mochijump.reveng.ImItem;
+import com.mochijump.reveng.ImPrc;
 
 
 //import com.MochiJump.RevEng.*;

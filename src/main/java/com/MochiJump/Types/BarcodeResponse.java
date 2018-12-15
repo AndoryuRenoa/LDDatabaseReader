@@ -1,4 +1,4 @@
-package com.MochiJump.Types;
+package com.mochijump.types;
 
 import java.math.BigDecimal;
 import java.util.Date;
