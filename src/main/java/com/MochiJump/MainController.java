@@ -26,8 +26,6 @@ public class MainController {
 	@Autowired
 	private BarcodeRepository bcRepo;
 	@Autowired
-	private ItemRepository itemRepo;
-	@Autowired
 	private VendorRepository vendorRepo;
 	
 	List <PoVend> vendorList;
